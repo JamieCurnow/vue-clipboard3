@@ -2,6 +2,8 @@
 
 Easily copy to clipboard in Vue 3 (composition-api) using clipboard.js 📋
 
+Thanks to [vue-clipboard2](https://github.com/Inndy/vue-clipboard2) for inspiration!
+
 ## Install
 
 `yarn add vue-clipboard3`
