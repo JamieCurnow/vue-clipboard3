@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "dist",
+    "target": "es5",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "lib": [
+      "es6",
+      "dom",
+      "es2017"
+    ]
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./node_modules"
+  ],
+  "compileOnSave": true
+}
