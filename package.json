@@ -1,6 +1,6 @@
 {
   "name": "vue-clipboard3",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/JamieCurnow/vue-clipboard3",
   "description": "Easily copy to clipboard with Vue 3",
   "keywords": [
