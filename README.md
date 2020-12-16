@@ -27,7 +27,7 @@ Keep it simple.
 
 <script lang="ts">
 import { defineComponent } from '@vue/composition-api'
-import useClipboard from '~/composables/useClipboard'
+import useClipboard from 'vue-clipboard3'
 
 export default defineComponent({
   setup() {
@@ -60,7 +60,7 @@ export default defineComponent({
 
 <script lang="ts">
 import { defineComponent, ref } from '@vue/composition-api'
-import useClipboard from '~/composables/useClipboard'
+import useClipboard from 'vue-clipboard3'
 
 export default defineComponent({
   setup() {
