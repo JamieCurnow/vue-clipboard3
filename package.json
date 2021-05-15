@@ -13,7 +13,7 @@
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "module": "src/index.js",
+  "module": "dist/index.js",
   "author": "Jamie Curnow",
   "license": "MIT",
   "private": false,
