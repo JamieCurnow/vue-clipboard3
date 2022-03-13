@@ -11,16 +11,17 @@
     "clipboard",
     "clipboard.js"
   ],
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "module": "dist/index.js",
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "types": "dist/esm/index.d.ts",
+  "module": "dist/esm/index.js",
   "author": "Jamie Curnow",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc -d",
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
     "watch": "tsc --watch -d",
-    "test": "tsc"
+    "prepublish": "npm run build"
   },
   "peerDependencies": {},
   "dependencies": {
