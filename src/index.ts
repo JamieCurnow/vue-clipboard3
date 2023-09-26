@@ -9,7 +9,7 @@ export default (opts?: Options) => {
   // default appendToBody true
   const appendToBody = opts?.appendToBody === undefined ? true : opts.appendToBody
   return {
-    toClipboard(text: string, container?: HTMLElement) {
+    toClipboard: (text: string, container?: HTMLElement) => {
       return new Promise((resolve, reject) => {
         // make fake element
         const fakeEl = document.createElement('button')
